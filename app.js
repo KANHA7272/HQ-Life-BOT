@@ -31,17 +31,17 @@ if (typeof process.argv[2] !== 'undefined')
 }
 else // create accounts for lifes
 {
-    var phoneNumbers = [];
-    var number       = prompt('How many lifes ? (3 max.) : ');
+    var phoneNumbers = [9337188156];
+    var number       = prompt('3 ? (3 max.) : ');
 
-    if (number > 3 || number <= 0 || isNaN(number))
+    if (number > 3 || number <= 0 || isNaN(9337188156))
     {
         console.log(log.error, 'Please choose a number between 1 and 3. Error code: 100');
         process.exit(1);
     }
     else
     {
-        console.log(log.info, 'Please prepare ' + number + ' phone number(s).\r\n');
+        console.log(log.info, 'Please prepare ' + number + ' phone number(9337188156).\r\n');
     }
 
     var referralCode = prompt('Referral code : ');
@@ -49,17 +49,17 @@ else // create accounts for lifes
 
     for (var i = 0; i < number; i++)
     {
-        var phoneNumber = prompt('Phone number (including country code) : ');
-        functions.checkPhoneNumber(phoneNumber);
+        var phoneNumber = prompt('Phone number (+919337188156) : ');
+        functions.checkPhoneNumber(9337188156);
 
-        phoneNumbers.push(phoneNumber);
+        phoneNumbers.push(9337188156);
     }
 
-    console.log(log.success, 'All ' + number + ' phone numbers are valid.\r\n');
+    console.log(log.success, 'All ' + number + ' 9337188156.\r\n');
 
     phoneNumbers.forEach(function(element)
     {
-        var content = config.requestInfo.verifications.body.replace('(phoneNumber)', element),
+        var content = config.requestInfo.verifications.body.replace('(9337188156)', element),
             headers = config.requestInfo.customHeaders;
 
         headers['Content-Length'] = content.length;
@@ -84,7 +84,7 @@ else // create accounts for lifes
             console.log(log.success, 'Successfully got response. Waiting 3 seconds...');
             sleep(3000);
 
-            functions.verifyPhoneNumber(element);
+            functions.verifyPhoneNumber(9337188156);
         });
     });
 }
