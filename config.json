@@ -1,7 +1,7 @@
 {
     "testAccount":
     {
-        "BEARER_TOKEN": "Njk0NzY1OTgyNzYxMzUzMjc2.XoQcAA.XyRQXS-hWcDpOCV5Ac9CFmazh0U"
+        "BEARER_TOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIwOTQ2MzQzLCJ1c2VybmFtZSI6InNhbnRvc2htaXNocmEiLCJhdmF0YXJVcmwiOiJnczovL2Nkbi1wcm9kLWh5cGUtc3BhY2UvZGVmYXVsdF9hdmF0YXJzL1VudGl0bGVkLTFfMDAwMl9wdXJwbGUucG5nIiwidG9rZW4iOiJzQ21ESHYiLCJyb2xlcyI6W10sImNsaWVudCI6IiIsImd1ZXN0SWQiOm51bGwsInYiOjEsImlhdCI6MTU4NjQyOTYyOSwiZXhwIjoxNTk0MjA1NjI5LCJpc3MiOiJoeXBlcXVpei8xIn0.DqgO5bfyiM0mXm3MwaG0oiQ0yEjpq0JMAAhGoWtzRI4"
     },
     "requestInfo": {
         "shows": {
